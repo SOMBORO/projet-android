@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/addE"
+        android:actionViewClass="android.support.v7.widget.SearchView"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="Ajout Etudiant" />
+    <item android:title="Mes Classes">
+        <menu>
+            <item
+                android:id="@+id/c1"
+                android:icon="@drawable/ic_menu_send"
+                android:title="GIN_INF2_A" />
+            <item
+                android:id="@+id/c2"
+                android:icon="@drawable/ic_menu_send"
+                android:title="GIN_INF2_B" />
+        </menu>
+    </item>
+    <item android:title="Saisie Absences">
+        <menu>
+            <item
+                android:id="@+id/class1"
+                android:icon="@drawable/ic_menu_send"
+                android:title="GIN_INF2_A" />
+            <item
+                android:id="@+id/class2"
+                android:icon="@drawable/ic_menu_send"
+                android:title="GIN_INF2_A" />
+        </menu>
+    </item>
+
+</menu>
